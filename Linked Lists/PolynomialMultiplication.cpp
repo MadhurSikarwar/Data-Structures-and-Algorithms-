@@ -40,6 +40,7 @@ Node* insertTerm(Node* head, int coeff, int exp) {
 
     // Insert at beginning
     if (head == nullptr || exp > head->exp) {
+        //insert in the front when the coming exponent is bigger than the head
         Node* temp = createNode(coeff, exp);
         temp->next = head;
         return temp;

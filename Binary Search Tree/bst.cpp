@@ -22,7 +22,6 @@ class BST
 {
 private:
     Node* root;
-
     // Insert helper
     Node* insert(Node* node, int val)
     {
